@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:gravity="center"
+    tools:context="com.linheimx.app.mpandroidchartplus.fragments.charts.LineChartFragment">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:background="#a594affb"
+        android:id="@+id/linechart"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</RelativeLayout>
